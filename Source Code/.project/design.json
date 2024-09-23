@@ -1,0 +1,9 @@
+{
+  "Tags": [
+    {
+      "Key": "ACME_System1"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true
+}

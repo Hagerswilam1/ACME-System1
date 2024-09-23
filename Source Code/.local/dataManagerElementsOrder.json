@@ -1,0 +1,306 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_3",
+        "boolPostExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_tsRetryInterval",
+        "in_intRetryNumber",
+        "in_sstrPassword",
+        "in_strEmailPrompt"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NewActivity.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtExtracted&Sequence_1",
+        "strDataString&Sequence_1",
+        "strPassword&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_tsRetryInterval",
+        "in_intRetryNumber"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Navigate_To_WorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_DataScraping_To_WorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_18",
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeOut",
+        "out_ExtractDataTable",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_LogOut.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Get_Account_Info.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strArrInfo&Sequence_3",
+        "strAccInfo&Sequence_7",
+        "strAccMatchedInfo&Sequence_7",
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strCurrency",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut",
+        "out_strClientID",
+        "out_strAccNumber",
+        "out_strAccAmount"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Open_Update_WorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_URL_Navigate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_19",
+        "boolPreExists&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strURL",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_Update_WorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strStatus",
+        "in_strComment",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Open_Update_WorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPostExists&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_LogOut.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Get_Account_Info.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strArrInfo&Sequence_3",
+        "boolPreExists&Sequence_4",
+        "strAccInfo&Sequence_7",
+        "strAccMatchedInfo&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut",
+        "out_strClientID",
+        "out_strAccNumber",
+        "out_strAccAmount",
+        "out_strCurrency"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Data_Scraping_To_WorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_18"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "out_ExtractDataTable",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_URL_Navigate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut",
+        "in_strURL"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Update_WorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut",
+        "in_strComment",
+        "in_strStatus"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Navigate_To_WorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreExists&Sequence_4",
+        "boolPostExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
