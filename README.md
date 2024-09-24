@@ -11,7 +11,8 @@
     <li>Update work item comments and status</li>
 </ul>
 
-<h2>Prerequisites</h2>
+<details><summary><h2>Prerequisites</h2></summary
+                                            
 <ul>
     <li>UiPath Studio (latest version)</li>
     <li>A compatible web browser (Chrome)</li>
@@ -19,6 +20,8 @@
     <li>Stable internet connection</li>
     <li>Valid credentials for the ACME System1 website</li>
 </ul>
+    
+</details>
 
 <h2>Installation</h2>
 <p>Download or clone this Library:</p>
