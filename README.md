@@ -49,7 +49,7 @@
     </li>
 </ol>
 
-<h2>Example Workflow</h2>
+<details><summary><h2>Example Workflow</h2></summary
 <ol>
     <li><strong>Login:</strong> Pass the username and password as input arguments or store them securely using Orchestrator Assets or Credential Manager.</li>
     <li><strong>Navigate and Extract:</strong> After logging in, navigate to the Work Items page and extract the available work items.</li>
@@ -62,6 +62,7 @@
     </li>
     <li><strong>Logout:</strong> Once all work items are processed, log out from the ACME System1 website.</li>
 </ol>
+</details>
 
 <h2>Customization</h2>
 <ul>
